@@ -2,4 +2,4 @@
 
 ## Usage
 
-https://cdn.jsdelivr.net/gh/luotaoruby/jenkins-ryo-theme/dist/ryo.css
+https://cdn.jsdelivr.net/gh/luotaoruby/jenkins-ryo-theme@latest/dist/ryo.css
