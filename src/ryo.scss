@@ -1,5 +1,39 @@
-#header {
-  .searchbox {
-    padding: 0 11px;
+#page-head {
+  #header {
+  }
+}
+
+#page-body {
+  #side-panel {
+    #tasks {
+      .task {
+        a {
+          &:visited {
+            color: #204A87;
+          }
+        }
+      }
+    }
+  }
+  #main-panel {
+    #view-message {}
+    .dashboard {
+      #projectstatus-tabBar {
+        .pane-frame {
+          table#projectstatus {
+            tbody {
+              tr {
+                a {
+                  text-decoration: none;
+                  &:visited {
+                    color: #204A87;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
