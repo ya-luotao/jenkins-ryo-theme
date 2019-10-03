@@ -26,10 +26,12 @@ $link-color-visited: $link-color;
           table#projectstatus {
             tbody {
               tr {
-                a {
-                  text-decoration: none;
-                  &:visited {
-                    color: $link-color-visited;
+                td {
+                  a {
+                    text-decoration: none;
+                    &:visited {
+                      color: $link-color-visited;
+                    }
                   }
                 }
               }
