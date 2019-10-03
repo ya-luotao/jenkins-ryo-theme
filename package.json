@@ -1,0 +1,20 @@
+{
+  "name": "jenkins-ryo-theme",
+  "version": "0.0.1",
+  "repository": "https://github.com/luotaoruby/jenkins-ryo-theme",
+  "author": "luotao <luotao.ruby@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
