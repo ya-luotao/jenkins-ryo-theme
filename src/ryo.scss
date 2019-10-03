@@ -1,27 +1,28 @@
 $link-color: #204A87;
 $link-color-visited: $link-color;
 
-#page-head {
-  #header {
+#jenkins {
+  #page-head {
+    #header {
+    }
   }
-}
 
-#page-body {
-  #side-panel {
-    #tasks {
-      .task {
-        a {
-          &:visited {
-            color: $link-color-visited;
+  #page-body {
+    #side-panel {
+      #tasks {
+        .task {
+          a {
+            &:visited {
+              color: $link-color-visited;
+            }
           }
         }
       }
     }
-  }
-  #main-panel {
-    #view-message {}
-    .dashboard {
-      #projectstatus-tabBar {
+    #main-panel {
+      #view-message {}
+      .dashboard {
+        #projectstatus-tabBar {}
         .pane-frame {
           table#projectstatus {
             tbody {
