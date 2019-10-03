@@ -1,3 +1,6 @@
+$link-color: #204A87;
+$link-color-visited: $link-color;
+
 #page-head {
   #header {
   }
@@ -9,7 +12,7 @@
       .task {
         a {
           &:visited {
-            color: #204A87;
+            color: $link-color-visited;
           }
         }
       }
@@ -26,7 +29,7 @@
                 a {
                   text-decoration: none;
                   &:visited {
-                    color: #204A87;
+                    color: $link-color-visited;
                   }
                 }
               }
