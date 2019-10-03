@@ -29,6 +29,7 @@ $link-color-visited: $link-color;
               tr {
                 td {
                   a {
+                    font-size: 1rem;
                     text-decoration: none;
                     &:visited {
                       color: $link-color-visited;
