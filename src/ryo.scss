@@ -41,7 +41,9 @@ $link-color-visited: $link-color;
                   th {
                     text-align: center;
                     font-weight: 500;
-                    font-size: .7rem;
+                    &:nth-child(1), &:nth-child(2) {
+                      font-size: .7rem;
+                    }
                   }
                 }
                 &:not(.header) {
