@@ -39,10 +39,10 @@ $link-color-visited: $link-color;
               tr {
                 &.header {
                   th {
-                    text-align: center;
+                    font-size: .7rem;
                     font-weight: 500;
                     &:nth-child(1), &:nth-child(2) {
-                      font-size: .7rem;
+                      text-align: center;
                     }
                   }
                 }
