@@ -33,19 +33,14 @@ $link-color-visited: $link-color;
                     font-size: .8rem;
                   }
                 }
-                &.job-status- {
-                  td {
-                    &:nth-child(2) {
-                      text-align: center;
-
-                      img {
-                        width: 16px !important;
-                        height: 16px !important;
-                      }
-                    }
-                  }
-                }
                 td {
+                  &:nth-child(2) {
+                    text-align: center;
+                  }
+                  img {
+                    width: 16px !important;
+                    height: 16px !important;
+                  }
                   a {
                     font-size: .9rem;
                     text-decoration: none;
