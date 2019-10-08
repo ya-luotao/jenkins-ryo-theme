@@ -5,7 +5,9 @@
 
 ## Usage
 
-https://cdn.jsdelivr.net/gh/luotaoruby/jenkins-ryo-theme@latest/dist/ryo.css
+https://fervent-bell-cb0e7b.netlify.com/ryo.css
+
+<del>https://cdn.jsdelivr.net/gh/luotaoruby/jenkins-ryo-theme@latest/dist/ryo.css</del>
 
 ## Development
 
