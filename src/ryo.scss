@@ -43,6 +43,11 @@ $link-color-visited: $link-color;
                     font-size: .7rem;
                   }
                 }
+                &:not(.header) {
+                  td {
+                    padding: 6px 0;
+                  }
+                }
                 td {
                   font-size: .8rem;
                   &:nth-child(1), &:nth-child(2) {
