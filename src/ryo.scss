@@ -43,10 +43,13 @@ $link-color-visited: $link-color;
                     font-size: .7rem;
                   }
                 }
-                &:nth-child(2), &:nth-child(1) {
+                &:nth-child(1), &:nth-child(2) {
                   text-align: center;
                 }
                 td {
+                  &:nth-child(1), &:nth-child(2) {
+                    text-align: center;
+                  }
                   img {
                     width: 16px !important;
                     height: 16px !important;
