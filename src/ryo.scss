@@ -22,7 +22,17 @@ $link-color-visited: $link-color;
     #main-panel {
       #view-message {}
       .dashboard {
-        #projectstatus-tabBar {}
+        #projectstatus-tabBar {
+          .tabBarFrame {
+            .tabBar {
+              .tab {
+                a {
+                  font-size: .8rem;
+                }
+              }
+            }
+          }
+        }
         .pane-frame {
           table#projectstatus {
             tbody {
@@ -30,7 +40,7 @@ $link-color-visited: $link-color;
                 &.header {
                   th {
                     font-weight: 500;
-                    font-size: .8rem;
+                    font-size: .7rem;
                   }
                 }
                 td {
