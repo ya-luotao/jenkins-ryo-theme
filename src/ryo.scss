@@ -22,16 +22,6 @@
     #main-panel {
       #view-message {}
       .dashboard {
-        #projectstatus-tabBar {
-          .tabBarFrame {
-            .tabBar {
-              .tab {
-                a {
-                }
-              }
-            }
-          }
-        }
         .pane-frame {
           table#projectstatus {
             tbody {
@@ -41,10 +31,6 @@
                     &:nth-child(1), &:nth-child(2) {
                       text-align: center;
                     }
-                  }
-                }
-                &:not(.header) {
-                  td {
                   }
                 }
                 td {
